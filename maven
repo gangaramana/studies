@@ -1,0 +1,41 @@
+maven is a build tool
+project management
+Dependencies and versions
+project structure (eg web-applications web-inf file )
+build publish and deploy
+ 
+
+** maven archetypes to define the project structure
+   tells the folder structure for specific archetype like spring application or java application
+
+
+
+ maven phases
+
+ * validate runs automatically 
+    checks everything in order validation checks
+ * compile phase
+ * test phase 
+    where we run our test cases
+ * package 
+    package all the code and executes all the above phases and if any phase it fails completely
+ * install
+     install in the local maven repository
+
+ * deploy
+    pulishing the artifactory to the remote repositoty
+
+
+
+
+scopes
+-----------
+
+* test
+* copmpile
+* provided
+
+
+
+multi modules
+-----------------

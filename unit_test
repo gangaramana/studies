@@ -1,0 +1,44 @@
+@Test 
+ annotation specifies it is run during the test phase
+
+ @BeforeAll 
+   -- used to run before test
+
+ @BeforeEach 
+    -- used to run before each test
+
+ @AfterAll
+    -- run after all the testcases are run used for resource cleaning
+
+ @AfterEach
+    --  run after every test case
+ @Nested 
+    --  is available during the run 
+
+  @Supplier 
+     -- used to customize the return types or messages with out overloading the test cases
+
+
+
+
+  ** split the unit test and integration test for easy maintenance 
+     name unit-test classes with SomeClassTest.class Integration-class with SomeClassIT.class
+
+
+
+
+@Test annotation is used for testcases and return type should be public void
+
+
+
+
+     we are not dependent on any internal platform
+
+
+
+
+
+
+
+
+     curl -X POST 'localhost:9200/product_en_default' -H 'Content-Type: application/json' 
